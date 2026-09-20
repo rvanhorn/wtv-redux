@@ -1,0 +1,40 @@
+{
+  "name": "warhammertv-redux",
+  "version": "0.5.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvanhorn/wtv-redux"
+  },
+  "description": "A modular Warhammer TV userscript with a single-file distribution build.",
+  "type": "module",
+  "engines": {
+    "node": "24.x",
+    "pnpm": "12.x"
+  },
+  "packageManager": "pnpm@12.4.2",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "catalog:refresh": "node scripts/refresh-catalog.mjs",
+    "version": "pnpm run catalog:refresh",
+    "dev": "node scripts/dev.mjs",
+    "browser": "node scripts/browser-server.mjs",
+    "check": "node scripts/check.mjs && pnpm run lint && pnpm run format:check",
+    "lint": "oxlint --deny-warnings",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "test": "pnpm run test:node && pnpm run test:browser",
+    "test:node": "node --test tests/node/*.test.js",
+    "test:browser": "pnpm run build && playwright test",
+    "test:browser:headed": "pnpm run build && playwright test --headed",
+    "verify": "pnpm run check && pnpm run test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "esbuild": "^0.25.0",
+    "lucide": "^1.47.0",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0"
+  }
+}

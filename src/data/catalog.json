@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-20T13:16:19.391Z",
+  "series": [
+    {
+      "id": "24905",
+      "title": "Hammer and Bolter",
+      "lastKnownVideoCount": 16,
+      "videoCountIsExact": false
+    },
+    {
+      "id": "24988",
+      "title": "Angels of Death",
+      "lastKnownVideoCount": 14,
+      "videoCountIsExact": false,
+      "year": 2021
+    },
+    {
+      "id": "24992",
+      "title": "Warhammer Colour Masterclass",
+      "lastKnownVideoCount": 122,
+      "videoCountIsExact": false,
+      "year": 2021
+    },
+    {
+      "id": "25010",
+      "title": "Loremasters",
+      "lastKnownVideoCount": 156,
+      "videoCountIsExact": false,
+      "year": 2021
+    },
+    {
+      "id": "25054",
+      "title": "Deep Strike",
+      "lastKnownVideoCount": 24,
+      "videoCountIsExact": false,
+      "year": 2022
+    },
+    {
+      "id": "25089",
+      "title": "The Exodite",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2022
+    },
+    {
+      "id": "25401",
+      "title": "Pariah Nexus",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25526",
+      "title": "The Tithes",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25542",
+      "title": "Iron Within",
+      "lastKnownVideoCount": 1,
+      "videoCountIsExact": false
+    },
+    {
+      "id": "25751",
+      "title": "Painting Desk",
+      "lastKnownVideoCount": 26,
+      "videoCountIsExact": false,
+      "releaseDate": "2025-06-01",
+      "year": 2025
+    },
+    {
+      "id": "25756",
+      "title": "How We Roll",
+      "lastKnownVideoCount": 19,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25758",
+      "title": "Scrap Demon",
+      "lastKnownVideoCount": 12,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25791",
+      "title": "Da Mekboy'z Workshop",
+      "lastKnownVideoCount": 10,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25871",
+      "title": "Warhammer+ Trailers",
+      "lastKnownVideoCount": 42,
+      "videoCountIsExact": false
+    },
+    {
+      "id": "31316",
+      "title": "Battle Report",
+      "lastKnownVideoCount": 121,
+      "videoCountIsExact": false,
+      "year": 2022
+    },
+    {
+      "id": "31467",
+      "title": "Tale of Four Gamers",
+      "lastKnownVideoCount": 4,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "31675",
+      "title": "Adepta Sororitas: Penitence",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2026
+    },
+    {
+      "id": "31793",
+      "title": "Aeronautica Imperialis",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2026
+    }
+  ],
+  "videos": []
+}

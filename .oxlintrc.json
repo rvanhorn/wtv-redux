@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": ["dist/**", "playwright-report/**", "test-results/**"],
+  "rules": {
+    "no-empty": ["error", { "allowEmptyCatch": true }]
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.js"],
+      "env": {
+        "browser": true,
+        "es2020": true
+      },
+      "globals": {
+        "__WHTV_CSS__": "readonly",
+        "__WHTV_VERSION__": "readonly",
+        "__WHTV_REPOSITORY_URL__": "readonly"
+      }
+    },
+    {
+      "files": ["scripts/**/*.js", "scripts/**/*.mjs", "playwright.config.js"],
+      "env": {
+        "node": true,
+        "es2025": true
+      }
+    },
+    {
+      "files": ["tests/**/*.js"],
+      "env": {
+        "browser": true,
+        "node": true,
+        "es2025": true
+      }
+    },
+    {
+      "files": ["userscript/header.js"],
+      "rules": {
+        "unicorn/no-empty-file": "off"
+      }
+    }
+  ]
+}

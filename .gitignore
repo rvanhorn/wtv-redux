@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+build/
+coverage/
+release-notes.md
+test-results/
+playwright-report/
+
+# Local configuration
+.playwright-server.json
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+tmp/
+
+# Documentation output
+docs/

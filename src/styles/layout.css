@@ -1,0 +1,114 @@
+#whtv-redux-app .whtv-sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 28px 16px 18px;
+  background: #101217;
+  border-right: 1px solid #1d2129;
+}
+#whtv-redux-app .whtv-workspace {
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 76px minmax(0, 1fr);
+}
+#whtv-redux-app .whtv-topbar {
+  min-width: 0;
+  padding: 0 36px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(120px, 490px) minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #1d2129;
+  background: var(--bg);
+  z-index: 20;
+}
+#whtv-redux-app .whtv-scroller {
+  overflow: auto;
+  overscroll-behavior: contain;
+  overflow-anchor: none;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #363d49 var(--bg);
+}
+#whtv-redux-app .whtv-content {
+  max-width: 1760px;
+  padding: 30px 36px 28px;
+  margin: 0 auto;
+}
+#whtv-redux-app .whtv-pagehead,
+#whtv-redux-app .whtv-sectionhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+#whtv-redux-app .whtv-pagehead h1 {
+  font-size: 30px;
+  letter-spacing: -0.035em;
+  font-weight: 720;
+  line-height: 1.2;
+}
+#whtv-redux-app .whtv-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#whtv-redux-app .whtv-breadcrumb-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 30px;
+  font-weight: 620;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+#whtv-redux-app .whtv-breadcrumb-link:hover {
+  color: var(--text);
+}
+#whtv-redux-app .whtv-breadcrumb-separator {
+  width: 18px;
+  height: 18px;
+  color: var(--subtle);
+}
+#whtv-redux-app .whtv-breadcrumb-current {
+  color: var(--accent);
+}
+#whtv-redux-app .whtv-pagehead > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+#whtv-redux-app .whtv-sectionhead h2 {
+  font-size: 20px;
+  font-weight: 650;
+  line-height: 1.3;
+}
+#whtv-redux-app .whtv-pagehead p {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 7px;
+}
+#whtv-redux-app .whtv-pagecount,
+#whtv-redux-app .whtv-resultcount {
+  color: var(--subtle);
+  font-size: 12px;
+  white-space: nowrap;
+}
+#whtv-redux-app .whtv-resultcount-emphasis {
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 650;
+}
+#whtv-redux-app .whtv-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+#whtv-redux-app .whtv-toolbar-spacer {
+  flex: 1;
+}

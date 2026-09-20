@@ -1,0 +1,29 @@
+@keyframes whtv-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes whtv-hero-cycle {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes whtv-skeleton {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #whtv-redux-app *,
+  #whtv-redux-app *::before,
+  #whtv-redux-app *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

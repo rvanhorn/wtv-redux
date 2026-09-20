@@ -1,0 +1,16 @@
+#whtv-redux-app {
+  --bg: #0c0e12;
+  --surface: #13161c;
+  --raised: #1c2028;
+  --line: #272c35;
+  --text: #f5f6f8;
+  --muted: #a6adb9;
+  --subtle: #808a99;
+  --accent: #f4ce68;
+  --accent-text: #17140d;
+  --accent-surface: color-mix(in srgb, var(--accent) 14%, var(--surface));
+  --accent-surface-strong: color-mix(in srgb, var(--accent) 22%, var(--surface));
+  --accent-wash: color-mix(in srgb, var(--accent) 9%, transparent);
+  --accent-border: color-mix(in srgb, var(--accent) 42%, var(--line));
+  --sidebar: 216px;
+}

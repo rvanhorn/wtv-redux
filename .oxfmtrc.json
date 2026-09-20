@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 120,
+  "singleQuote": true,
+  "proseWrap": "preserve",
+  "sortPackageJson": false,
+  "ignorePatterns": ["AGENTS.md", "CLAUDE.md", "dist/**", "playwright-report/**", "test-results/**"]
+}
