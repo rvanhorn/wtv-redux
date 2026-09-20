@@ -1,0 +1,26 @@
+#!/bin/sh
+set -eu
+
+echo "Running repository verification before commit..."
+
+if ! command -v pnpm >/dev/null 2>&1; then
+  if [ -n "${PNPM_HOME:-}" ]; then
+    PATH="$PNPM_HOME:$PNPM_HOME/bin:$PATH"
+  fi
+  if [ -n "${HOME:-}" ]; then
+    PATH="$HOME/Library/pnpm/bin:$HOME/Library/pnpm:$PATH"
+  fi
+  if [ -n "${XDG_DATA_HOME:-}" ]; then
+    PATH="$XDG_DATA_HOME/pnpm:$PATH"
+  elif [ -n "${HOME:-}" ]; then
+    PATH="$HOME/.local/share/pnpm:$PATH"
+  fi
+  export PATH
+fi
+
+if ! command -v pnpm >/dev/null 2>&1; then
+  echo "pnpm is required to run the pre-commit verification. Install pnpm 12 and retry." >&2
+  exit 127
+fi
+
+exec pnpm run verify

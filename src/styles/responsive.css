@@ -8,7 +8,7 @@
     padding-right: 26px;
   }
 }
-@media (max-width: 1279px) {
+@media (max-width: 1280px) {
   #whtv-redux-app .whtv-topbar-action {
     width: 36px;
     gap: 0;

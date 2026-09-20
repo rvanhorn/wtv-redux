@@ -64,6 +64,7 @@ Install dependencies and Playwright's Firefox build:
 ```bash
 pnpm install --frozen-lockfile
 pnpm exec playwright install firefox
+pnpm run hooks:install
 ```
 
 ### Local development
@@ -85,6 +86,10 @@ the last successful bundle. The server listens only on `127.0.0.1`.
 - `pnpm run test:node` runs development-server and data tests.
 - `pnpm run test:browser` builds the userscript and runs the deterministic Firefox suite with local fixtures.
 - `pnpm run verify` runs the full check and test suite.
+
+The pre-commit hook runs `pnpm run verify` before Git creates a commit. If a check or a test fails, Git stops the
+commit so the same failure does not reach GitHub Actions. Run `pnpm run hooks:install` once after cloning the
+repository to enable the tracked hook.
 
 The browser suite does not contact the live service or require an account. If Firefox cannot start in the current
 environment, run `pnpm run browser` from a normal terminal. Test commands connect to that browser while its endpoint

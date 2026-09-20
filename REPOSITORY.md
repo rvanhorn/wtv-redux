@@ -19,6 +19,7 @@ Use these commands from the repository root:
 - `pnpm run check` checks JavaScript syntax, runs Oxlint, and verifies Oxfmt formatting.
 - `pnpm run lint:fix` applies safe Oxlint fixes.
 - `pnpm run format` formats supported repository files with Oxfmt.
+- `pnpm run hooks:install` configures Git to use the tracked hooks in `.githooks`.
 - `pnpm run build` creates the production userscript.
 - `pnpm run catalog:refresh` rebuilds `src/data/catalog.json` from the live site and writes it only when a series changed.
   `pnpm version` runs it, and `.github/workflows/refresh-catalog.yml` runs it daily and on manual dispatch.
@@ -30,7 +31,8 @@ Use these commands from the repository root:
 - `actionlint .github/workflows/*.yml` checks the workflows when `actionlint` is installed.
 
 The development loader advances its revision only after a successful build. Run `pnpm run format`
-and `pnpm run check` after the final edit. Run `pnpm run verify` before a commit or a release.
+and `pnpm run check` after the final edit. The pre-commit hook runs `pnpm run verify` and stops the commit if any
+check or test fails. Run `pnpm run hooks:install` once after cloning the repository to enable the hook.
 
 ## Run browser checks through the shared browser server
 
@@ -103,10 +105,17 @@ GitHub Release assets.
 `package.json` owns the stable `major.minor.patch` version. The build inserts that version into the
 userscript header.
 
-Update the current `CHANGELOG.md` section for user-visible behavior, bug fixes, compatibility or
-data-format changes, build or release process changes, and project identity changes. Do not add an
-entry for spelling, formatting, or cleanup that changes no behavior, documented contract, or
-release artifact. Add the entry in the same change. Describe the result and affected scope, not the
-implementation steps.
+Keep an `## [Unreleased]` section above the latest released version in `CHANGELOG.md`. Add every
+change made after the latest release to that section. Do not add new entries to a released version.
+Use one tag at the start of every changelog item: `[Repo]` for repository tooling, tests, CI,
+documentation, build, release, or package-manager changes; `[Userscript]` for shipped browser
+behavior. Use both tags for a change that covers both areas. Within each `Added`, `Changed`,
+`Fixed`, or `Removed` subsection, group items in this order: `[Repo]`, both tags, then
+`[Userscript]`.
+
+Update `CHANGELOG.md` for user-visible behavior, bug fixes, compatibility or data-format changes,
+build or release process changes, and project identity changes. Do not add an entry for spelling,
+formatting, or cleanup that changes no behavior, documented contract, or release artifact. Add the
+entry in the same change. Describe the result and affected scope, not the implementation steps.
 
 See `README.md` for the release procedure and retry behavior.

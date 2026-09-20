@@ -24,6 +24,7 @@
     "lint:fix": "oxlint --fix",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
+    "hooks:install": "node scripts/install-git-hooks.mjs",
     "test": "pnpm run test:node && pnpm run test:browser",
     "test:node": "node --test tests/node/*.test.js",
     "test:browser": "pnpm run build && playwright test",
