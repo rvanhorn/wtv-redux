@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T13:16:19.391Z",
+  "updatedAt": "2026-09-23T11:32:21.377Z",
   "series": [
     {
       "id": "24905",
@@ -25,7 +25,7 @@
     {
       "id": "25010",
       "title": "Loremasters",
-      "lastKnownVideoCount": 156,
+      "lastKnownVideoCount": 157,
       "videoCountIsExact": false,
       "year": 2021
     },
@@ -108,7 +108,7 @@
     {
       "id": "31467",
       "title": "Tale of Four Gamers",
-      "lastKnownVideoCount": 4,
+      "lastKnownVideoCount": 5,
       "videoCountIsExact": false,
       "year": 2025
     },
