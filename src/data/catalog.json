@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T11:32:21.377Z",
+  "updatedAt": "2026-09-25T11:48:22.000Z",
   "series": [
     {
       "id": "24905",
@@ -93,6 +93,13 @@
       "year": 2025
     },
     {
+      "id": "25858",
+      "title": "Ultimate Paint-off",
+      "lastKnownVideoCount": 10,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
       "id": "25871",
       "title": "Warhammer+ Trailers",
       "lastKnownVideoCount": 42,
@@ -115,13 +122,20 @@
     {
       "id": "31675",
       "title": "Adepta Sororitas: Penitence",
-      "lastKnownVideoCount": 3,
+      "lastKnownVideoCount": 4,
       "videoCountIsExact": false,
       "year": 2026
     },
     {
       "id": "31793",
       "title": "Aeronautica Imperialis",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2026
+    },
+    {
+      "id": "31917",
+      "title": "Adepta Sororitas: Penitence - Original Score",
       "lastKnownVideoCount": 3,
       "videoCountIsExact": false,
       "year": 2026
