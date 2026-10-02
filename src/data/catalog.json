@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T13:09:33.011Z",
+  "updatedAt": "2026-10-02T12:30:51.281Z",
   "series": [
     {
       "id": "24905",
@@ -129,13 +129,20 @@
     {
       "id": "31793",
       "title": "Aeronautica Imperialis",
-      "lastKnownVideoCount": 3,
+      "lastKnownVideoCount": 4,
       "videoCountIsExact": false,
       "year": 2026
     },
     {
       "id": "31917",
       "title": "Adepta Sororitas: Penitence - Original Score",
+      "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2026
+    },
+    {
+      "id": "31925",
+      "title": "Aeronautica Imperialis – Original Score",
       "lastKnownVideoCount": 3,
       "videoCountIsExact": false,
       "year": 2026
