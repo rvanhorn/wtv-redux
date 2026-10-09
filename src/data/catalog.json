@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T13:25:35.435Z",
+  "updatedAt": "2026-10-09T13:13:16.134Z",
   "series": [
     {
       "id": "24905",
@@ -46,7 +46,7 @@
     {
       "id": "25401",
       "title": "Pariah Nexus",
-      "lastKnownVideoCount": 3,
+      "lastKnownVideoCount": 4,
       "videoCountIsExact": false,
       "year": 2025
     },
@@ -102,7 +102,7 @@
     {
       "id": "25871",
       "title": "Warhammer+ Trailers",
-      "lastKnownVideoCount": 42,
+      "lastKnownVideoCount": 41,
       "videoCountIsExact": false
     },
     {
@@ -116,6 +116,13 @@
       "id": "31467",
       "title": "Tale of Four Gamers",
       "lastKnownVideoCount": 6,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "31477",
+      "title": "Sigmar's Toll",
+      "lastKnownVideoCount": 4,
       "videoCountIsExact": false,
       "year": 2025
     },
