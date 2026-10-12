@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T13:13:16.134Z",
+  "updatedAt": "2026-10-12T15:18:51.577Z",
   "series": [
     {
       "id": "24905",
@@ -102,7 +102,7 @@
     {
       "id": "25871",
       "title": "Warhammer+ Trailers",
-      "lastKnownVideoCount": 41,
+      "lastKnownVideoCount": 42,
       "videoCountIsExact": false
     },
     {
