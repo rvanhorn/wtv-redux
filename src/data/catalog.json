@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T15:18:51.577Z",
+  "updatedAt": "2026-10-13T14:08:20.364Z",
   "series": [
     {
       "id": "24905",
@@ -82,6 +82,13 @@
       "id": "25758",
       "title": "Scrap Demon",
       "lastKnownVideoCount": 12,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25780",
+      "title": "Scribes & Scriveners",
+      "lastKnownVideoCount": 16,
       "videoCountIsExact": false,
       "year": 2025
     },
