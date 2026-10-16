@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T11:25:13.387Z",
+  "updatedAt": "2026-10-16T11:19:39.312Z",
   "series": [
     {
       "id": "24905",
@@ -109,7 +109,7 @@
     {
       "id": "25871",
       "title": "Warhammer+ Trailers",
-      "lastKnownVideoCount": 42,
+      "lastKnownVideoCount": 41,
       "videoCountIsExact": false
     },
     {
@@ -158,6 +158,13 @@
       "id": "31925",
       "title": "Aeronautica Imperialis – Original Score",
       "lastKnownVideoCount": 3,
+      "videoCountIsExact": false,
+      "year": 2026
+    },
+    {
+      "id": "31947",
+      "title": "Arkanaut",
+      "lastKnownVideoCount": 1,
       "videoCountIsExact": false,
       "year": 2026
     }
