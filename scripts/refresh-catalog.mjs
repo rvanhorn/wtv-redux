@@ -5,7 +5,9 @@ import { HOME_DATA_MAX_CHARS, HOME_DATA_PATH, HOME_DATA_TIMEOUT_MS, SERIES_TIMEO
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const defaultCatalogPath = path.join(root, 'src', 'data', 'catalog.json');
-export const SITE_ORIGIN = 'https://www.warhammertv.com';
+// The www host has answered every request with Cloudflare's HTTP 525 since 2026-10-23; the apex
+// host serves the same JSON routes.
+export const SITE_ORIGIN = 'https://warhammertv.com';
 const SERIES_DATA_ROUTE = 'routes/$';
 const MAX_CONCURRENT_SERIES_REQUESTS = 2;
 
