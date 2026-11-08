@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T11:45:07.226Z",
+  "updatedAt": "2026-11-08T05:59:20.716Z",
   "series": [
     {
       "id": "24905",
@@ -25,7 +25,7 @@
     {
       "id": "25010",
       "title": "Loremasters",
-      "lastKnownVideoCount": 160,
+      "lastKnownVideoCount": 162,
       "videoCountIsExact": false,
       "year": 2021
     },
@@ -66,7 +66,7 @@
     {
       "id": "25751",
       "title": "Painting Desk",
-      "lastKnownVideoCount": 26,
+      "lastKnownVideoCount": 31,
       "videoCountIsExact": false,
       "releaseDate": "2025-06-01",
       "year": 2025
@@ -102,27 +102,27 @@
     {
       "id": "25858",
       "title": "Ultimate Paint-off",
-      "lastKnownVideoCount": 10,
+      "lastKnownVideoCount": 11,
       "videoCountIsExact": false,
       "year": 2025
     },
     {
       "id": "25871",
       "title": "Warhammer+ Trailers",
-      "lastKnownVideoCount": 43,
+      "lastKnownVideoCount": 45,
       "videoCountIsExact": false
     },
     {
       "id": "31316",
       "title": "Battle Report",
-      "lastKnownVideoCount": 123,
+      "lastKnownVideoCount": 124,
       "videoCountIsExact": false,
       "year": 2022
     },
     {
       "id": "31467",
       "title": "Tale of Four Gamers",
-      "lastKnownVideoCount": 7,
+      "lastKnownVideoCount": 8,
       "videoCountIsExact": false,
       "year": 2025
     },
@@ -164,7 +164,7 @@
     {
       "id": "31947",
       "title": "Arkanaut",
-      "lastKnownVideoCount": 1,
+      "lastKnownVideoCount": 3,
       "videoCountIsExact": false,
       "year": 2026
     }
