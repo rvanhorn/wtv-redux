@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T05:59:20.716Z",
+  "updatedAt": "2026-11-10T14:54:35.421Z",
   "series": [
     {
       "id": "24905",
@@ -88,7 +88,7 @@
     {
       "id": "25780",
       "title": "Scribes & Scriveners",
-      "lastKnownVideoCount": 16,
+      "lastKnownVideoCount": 17,
       "videoCountIsExact": false,
       "year": 2025
     },
