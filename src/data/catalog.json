@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:54:35.421Z",
+  "updatedAt": "2026-11-12T15:17:38.503Z",
   "series": [
     {
       "id": "24905",
@@ -115,7 +115,7 @@
     {
       "id": "31316",
       "title": "Battle Report",
-      "lastKnownVideoCount": 124,
+      "lastKnownVideoCount": 125,
       "videoCountIsExact": false,
       "year": 2022
     },
