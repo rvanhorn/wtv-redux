@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:37:01.311Z",
+  "updatedAt": "2026-11-14T13:33:21.374Z",
   "series": [
     {
       "id": "24905",
@@ -42,6 +42,13 @@
       "lastKnownVideoCount": 3,
       "videoCountIsExact": false,
       "year": 2022
+    },
+    {
+      "id": "25337",
+      "title": "Blacktalon",
+      "lastKnownVideoCount": 12,
+      "videoCountIsExact": false,
+      "year": 2023
     },
     {
       "id": "25401",
