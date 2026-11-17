@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T13:33:21.374Z",
+  "updatedAt": "2026-11-17T16:00:55.838Z",
   "series": [
     {
       "id": "24905",
@@ -25,7 +25,7 @@
     {
       "id": "25010",
       "title": "Loremasters",
-      "lastKnownVideoCount": 162,
+      "lastKnownVideoCount": 163,
       "videoCountIsExact": false,
       "year": 2021
     },
