@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T16:00:55.838Z",
+  "updatedAt": "2026-11-18T15:41:52.301Z",
   "series": [
     {
       "id": "24905",
@@ -129,7 +129,7 @@
     {
       "id": "31467",
       "title": "Tale of Four Gamers",
-      "lastKnownVideoCount": 8,
+      "lastKnownVideoCount": 9,
       "videoCountIsExact": false,
       "year": 2025
     },
