@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T15:41:52.301Z",
+  "updatedAt": "2026-11-19T15:46:07.486Z",
   "series": [
     {
       "id": "24905",
@@ -109,7 +109,7 @@
     {
       "id": "25858",
       "title": "Ultimate Paint-off",
-      "lastKnownVideoCount": 11,
+      "lastKnownVideoCount": 12,
       "videoCountIsExact": false,
       "year": 2025
     },
