@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T17:47:00.496Z",
+  "updatedAt": "2026-11-25T17:15:38.035Z",
   "series": [
     {
       "id": "24905",
@@ -103,6 +103,13 @@
       "id": "25791",
       "title": "Da Mekboy'z Workshop",
       "lastKnownVideoCount": 10,
+      "videoCountIsExact": false,
+      "year": 2025
+    },
+    {
+      "id": "25828",
+      "title": "Brainboyz",
+      "lastKnownVideoCount": 9,
       "videoCountIsExact": false,
       "year": 2025
     },
